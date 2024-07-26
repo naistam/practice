@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.*;
 public class Basiclocator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		System.setProperty("webdriver.chrome.driver", "C:/Users/manik/OneDrive/Desktop/mani/BrowserExtensions/Chrom Extension/chromedriver-win64/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://dev.clickntravel.com/");
