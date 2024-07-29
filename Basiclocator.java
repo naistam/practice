@@ -9,6 +9,7 @@ public class Basiclocator {
 	public static void main(String[] args) {
 		//Launching browser
 		System.setProperty("webdriver.chrome.driver", "C:/Users/manik/OneDrive/Desktop/mani/BrowserExtensions/Chrom Extension/chromedriver-win64/chromedriver.exe");
+//Declaring webdriver
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://dev.clickntravel.com/");
 		driver.manage().window().maximize();
