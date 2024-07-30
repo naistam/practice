@@ -11,6 +11,7 @@ public class Basiclocator {
 		System.setProperty("webdriver.chrome.driver", "C:/Users/manik/OneDrive/Desktop/mani/BrowserExtensions/Chrom Extension/chromedriver-win64/chromedriver.exe");
 //Declaring webdriver
 		WebDriver driver=new ChromeDriver();
+		//Launching website
 		driver.get("https://dev.clickntravel.com/");
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
